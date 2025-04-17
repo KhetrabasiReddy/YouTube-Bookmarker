@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Bookmarker",
+  "version": "1.0",
+  "description": "Save and manage YouTube bookmarks with title, link, and timestamp.",
+  "icons": {
+    "64": "bookmarkX64.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "bookmarkX64.png"
+  },
+  "permissions": ["tabs", "storage", "scripting"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "Khetrabasi Reddy",
+  "homepage_url": "https://reddy-khetrabasi-portfolio.vercel.app/"
+  
+  
+}
