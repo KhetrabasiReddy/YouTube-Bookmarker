@@ -1,12 +1,49 @@
-# React + Vite
+# 🎬 YouTube Bookmarker Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful and elegant Chrome extension to help you bookmark YouTube videos with their **title**, **link**, and **timestamp** — and manage them with ease.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📥 Save current YouTube video details (title, URL, timestamp) with one click
+- 📝 Edit and 🗑️ delete bookmarks from a neat Gmail-style UI
+- 🧭 View list of saved bookmarks on the left, details on the right
+- 🌌 Fully animated dark mode with gradients (no light mode!)
+- 🔐 Data stored in `localStorage` for fast access and privacy
+- ⚛️ Built using **Vite + React + Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Hooks)
+- Tailwind CSS (custom gradients & dark mode)
+- Vite (for fast development)
+- Chrome Extension APIs (`manifest v3`)
+- LocalStorage
+
+## 📦 How to Use
+
+1. Clone the repo  
+   `git clone https://github.com/KhetrabasiReddy/youtube-bookmarker-extension.git`
+
+2. Install dependencies  
+   `npm install`
+
+3. Build the extension  
+   `npm run build`
+
+4. Load into Chrome:
+   - Go to `chrome://extensions`
+   - Enable "Developer mode"
+   - Click "Load unpacked"
+   - Select the `dist/` folder
+
+5. Start bookmarking! 🎉
+
+## 🙋‍♂️ Author
+
+**Khetrabasi Reddy**  
+📌 [Portfolio](https://reddy-khetrabasi-portfolio.vercel.app/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/khetrabasi-reddy-b0ba77224/)  
+🐙 [GitHub](https://github.com/KhetrabasiReddy)
+
+If you like this project, feel free to **⭐ star** it and share it with others!
+

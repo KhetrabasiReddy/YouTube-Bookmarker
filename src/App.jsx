@@ -221,7 +221,7 @@ function App() {
           GitHub
         </a> •
         <a
-          href="https://github.com/KhetrabasiReddy/your-repo-name"
+          href="https://github.com/KhetrabasiReddy/YouTube-Bookmarker.git"
           target="_blank"
           rel="noopener noreferrer"
           className="text-yellow-400 hover:underline"
