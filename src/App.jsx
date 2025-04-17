@@ -97,12 +97,12 @@ function App() {
 
   return (
     <div className="w-[600px] p-4 rounded-xl shadow-lg bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white animate-fade-in">
-      <h1 className="text-2xl font-bold mb-4 bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text animate-slide-in">
+      <h1 className="text-center text-2xl font-bold mb-4 bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text animate-slide-in">
         🎥 YouTube Bookmarker
       </h1>
 
       {/* Button Controls */}
-      <div className="flex gap-2 mb-4">
+      <div className="flex gap-2 mb-4 justify-center">
         <button
           className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-4 py-2 rounded shadow hover:scale-105 transition-transform"
           onClick={handleSave}
